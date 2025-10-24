@@ -1,0 +1,180 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  line-height: 1.5;
+  width: 960px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+
+header.Pj {
+  margin-top: 20px;
+  position: relative;
+}
+
+header .im {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .im img {
+  width: 32%;
+  height: 160px;
+  object-fit: cover;
+}
+
+header p {
+  position: absolute;
+  top: 25px;
+  margin-left: 700px;
+  font-size: 14px;
+  color: #7f7f7f;
+}
+
+header h1 {
+  position: absolute;
+  top: 30px;
+  margin-left: 800px;
+  color:green;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+
+nav {
+  background: #3a3a3a;
+  margin-top: 8px;
+  border-radius: 2px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  border-right: 1px solid #666;
+}
+
+nav ul li:last-child {
+  border-right: none;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 25px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+  background: #555;
+}
+
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+
+article.BO {
+  width: 58%;
+}
+
+article.BO h2 {
+  background: palevioletred;
+  color: white;
+  font-size: 15px;
+  padding: 6px 10px;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+article.BO p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+
+.asside1 {
+  background: #f2f6e4;
+  border-left: 5px solid palegreen;
+  padding: 10px;
+  margin-top: 15px;
+  width: 58%;
+  border-radius: 2px;
+}
+
+.asside1 h2 {
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.asside1 p {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+
+.aside2 {
+  width: 58%;
+  margin-top: 10px;
+  background: #fff;
+  padding: 10px;
+}
+
+.aside2 p {
+  margin-bottom: 8px;
+}
+
+
+.aside3 {
+  width: 38%;
+  background: #e8f2fb;
+  border-left: 5px solid plum;
+  border-radius: 2px;
+  padding: 15px;s
+}
+
+
+
+.aside3 h3 {
+  color: plum;
+  font-size: 15px;
+  margin-top: 12px;
+}
+
+.aside3 p {
+  font-size: 13.5px;
+  color: #333;
+  margin-top: 4px;
+}
+
+
+footer {
+  border-top: 1px solid #ccc;
+  text-align: center;
+  margin-top: 25px;
+  padding: 12px 0;
+  color: #666;
+  font-size: 13px;
+}
